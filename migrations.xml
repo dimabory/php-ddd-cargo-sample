@@ -8,8 +8,10 @@
 
     <migrations-namespace>Codeliner\CargoBackend\Migrations</migrations-namespace>
 
-    <table name="migrations" />
+    <table name="migrations"/>
 
     <migrations-directory>migrations</migrations-directory>
+
+    <all-or-nothing>true</all-or-nothing>
 
 </doctrine-migrations>

@@ -27,6 +27,6 @@ before_script:
 
 script:
   - php ./bin/kawaii gherkin:check features/
-  - php ./bin/phpunit -c ./CargoBackend/tests
-  - php ./bin/phpunit -c ./GraphTraversalBackend/tests
-  - php ./bin/behat --verbose
+  - php composer.phar test:backend
+  - php composer.phar test:graph_service
+  - php composer.phar test:bdd
