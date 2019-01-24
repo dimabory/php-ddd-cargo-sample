@@ -30,3 +30,8 @@ script:
   - php composer.phar test:backend
   - php composer.phar test:graph_service
   - php composer.phar test:bdd
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
